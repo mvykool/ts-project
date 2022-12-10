@@ -38,5 +38,4 @@ return {
 }
 }
 
-
 export default Home
