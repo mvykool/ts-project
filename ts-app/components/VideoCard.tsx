@@ -68,7 +68,7 @@ export const VideoCard = ({ post }: Iprops) => {
           </Link>
 
           {isHover && (
-            <div className='absolute bottom-6 cursor-pointer left-8 md:left-14 lg:left-0 flex gap-10 lg:justify-between w-[100px] md:w-[50px] p-3'>
+            <div className='absolute bottom-5 cursor-pointer left-8 md:left-14 lg:left-0 flex gap-10 lg:justify-between w-[100px] md:w-[50px] p-3'>
               {playing ? (
                 <button onClick={onVideoPress} className='text-black text-2xl lg:text-4xl'><BsFillPauseFill/></button>
               ): <button onClick={onVideoPress}  className='text-black text-2xl lg:text-4xl'><BsFillPlayFill/></button>}
