@@ -62,7 +62,7 @@ export const VideoCard = ({ post }: Iprops) => {
              ref={videoRef}
              rounded-2xl 
              loop 
-             className='ld:w-[600px] h-[300px] md:h-[400px] lg:h-[530px] w-[200px] cursor-pointer bg-gray-100' src={post.video.asset.url}>
+             className='lg:w-[600px] h-[300px] md:h-[400px] lg:h-[530px] w-[200px] cursor-pointer bg-gray-100' src={post.video.asset.url}>
 
             </video>
           </Link>
